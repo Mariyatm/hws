@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
 
-Выберите способ доставки заказа
 
-Курьером
-Дронами
-Пневмопочтой
-Почтой России
+<h1>Выберите способ доставки заказа</h1>
+<form action="address.html"
+      method="post">
+    <p>
+        <input type="radio" id="courier" name="delivery" value="huey">
+        <label for="courier">Курьером</label>
+    </p>
+    <p>
+        <input type="radio" id="drone" name="delivery" value="huey">
+        <label for="drone">Дронами</label>
+    </p>
+    <p>
+        <input type="radio" id="pneumatic_mail" name="delivery" value="huey">
+        <label for="pneumatic_mail">Пневмопочтой</label>
+    </p>
+    <p>
+        <input type="radio" id="russian_mail" name="delivery" value="huey">
+        <label for="russian_mail">Почтой России</label>
+    </p>
+    <p>
+        <button type="submit">
+            Продолжить
+        </button>
+    </p>
+</form>
 
-Продолжить
 
 </body>
 </html>
